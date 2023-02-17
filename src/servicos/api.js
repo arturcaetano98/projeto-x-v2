@@ -2,7 +2,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-	baseURL: "https://projeto-x-backend-v2-68pccioq0-arturcaetano98.vercel.app/"
+	baseURL: "https://projeto-x-backend-v2.vercel.app"
 });
 
 export const realizaLogin = async(body) => {
